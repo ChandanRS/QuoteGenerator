@@ -1,10 +1,16 @@
 import React from 'react'
 import styles from './Quotebox.module.css'
 
+
 const Quotebox = (props) =>{
     return (
         <div className={styles.container}>
-         <div className={styles.quoteText}>{props.quoteText}</div>
+         <div className={styles.quoteText}>
+             <div className={styles.quoteContainer}>
+         <div className={styles.fas}><i className="fas fa-quote-left"></i></div>
+             {props.quoteText}
+         </div>
+         </div>
          <div className={styles.author}>-{props.author}</div>
          <div className={styles.buttons}>
          <button className={styles.twitter}>

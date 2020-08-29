@@ -5,6 +5,10 @@ body{
     place-items: center;
     background-color: var(--main-color);
     margin-top: 5rem;
+
+    
+
+  
 }
 .container{
     display: grid;
@@ -20,6 +24,8 @@ body{
     font-size: 1.8rem;
     padding: 30px;
     color: var(--main-color);
+    height:auto;
+    min-height: 100px;
 }
 
 .author{
@@ -39,7 +45,6 @@ body{
     height: 30px;
     margin: auto;
     color: var(--main-color);
-
 }
 
 .twitter{
@@ -57,16 +62,13 @@ body{
 a{
     display: block;
     color: var(--main-color);
-
 }
 
 .buttons{
     display: flex;
-   
     padding: 10px;
     position: relative;
     color: var(--main-color);
-
 }
 
 button{
@@ -80,3 +82,19 @@ button{
     background-color: var(--main-color);
     place-items: center;
 }
+
+
+.fas{
+    color: var(--main-color);
+    height:50px;
+    width: 50px;
+    padding-right: 10px;
+}
+
+.quoteContainer{
+    display: flex;
+
+}
+
+
+
