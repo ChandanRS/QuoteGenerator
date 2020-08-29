@@ -67,6 +67,7 @@ class App extends React.Component{
         newQuote = {this.getQuote = this.getQuote.bind(this)}
         />
       </div>
+      <div className="myName">By Chandan</div>
       </FadeInDiv>
     );
 }

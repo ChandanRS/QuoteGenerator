@@ -10,6 +10,11 @@
  
 }
 
+.myName{
+  display: grid;
+  place-items: center;
+  color: gray;
+}
 
 
 
