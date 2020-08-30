@@ -16,16 +16,17 @@ body{
     min-height: 300px;
     background-color: cyan;
     margin: auto;
-    grid-template-rows: 50% 20% 20%;
+    /* grid-template-rows: 50vh 30vh 20vh; */
     
 }
 
 .quoteText{
     font-size: 1.8rem;
     padding: 30px;
+
     color: var(--main-color);
     height:auto;
-    min-height: 50px;
+    /* min-height: 50px; */
     display: block;
 }
 
@@ -36,7 +37,7 @@ body{
     padding-right: 15%;
 
     color: var(--main-color);
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
     font-size: 1.3rem;
 }
 
@@ -72,7 +73,6 @@ a{
     padding: 10px;
     position: relative;
     color: var(--main-color);
-    padding-bottom:100px;
 }
 
 button{
